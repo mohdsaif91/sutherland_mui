@@ -28,3 +28,13 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `Configuration for running the project`
+
+Client ID is required for Authenticate the user with Microsoft Account, Client ID id passed in the mail in which the repo url is been sent.
+
+For running the project node 18 version is needed
+
+### `Project working`
+
+when the application starts the route will be on ' / ' which state the user is not logged in, when the user does the login using Microsoft account, after sucessfully login the page is routed to ' /home ' where the table with data is displayed.
