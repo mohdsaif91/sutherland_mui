@@ -8,7 +8,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 Providers.globalProvider = new Msal2Provider({
-  clientId: "e7c87428-e367-47d9-a094-8f516b8dd1eb",
+  clientId: "",
 });
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
